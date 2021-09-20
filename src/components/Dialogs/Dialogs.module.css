@@ -1,0 +1,54 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+   
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(18, 40, 40, 0.75);
+    border-radius: 12px;
+
+}
+
+.dialogsItems .dialog {
+    padding: 20px;
+    backdrop-filter: blur(25px) saturate(163%);
+    color: white;
+    text-decoration: none;
+}
+
+.dialogsItems a{
+    color: rgb(18, 206, 80);
+    text-decoration: none;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.dialogsItems .active {
+    color: gold;
+}
+
+.messageWrapper textarea { 
+   margin-top: 40px;
+    outline: none;
+    resize: none;
+    width: 390px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 50vh;
+    background-color: rgb(110, 233, 151);
+}
+
+.messageWrapper .sendButton{ 
+    margin-top: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: rgb(12, 196, 110);
+    border: solid 1px;
+    border-color: rgb(4, 112, 49);
+
+}
+.messageWrapper{
+    display: flex;
+}

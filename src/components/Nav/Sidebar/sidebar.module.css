@@ -1,0 +1,12 @@
+.icon img { 
+    border-radius: 50%;
+    width: 50px;
+    
+}
+.friendsList span { 
+    color: rgb(192, 252, 30);
+    
+}
+.icon { 
+    padding-top: 10px;
+}

@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    padding: 20px;
+    background: rgb(18,128,80);
+background: linear-gradient(211deg, rgba(18,128,80,1) 11%, rgba(10,170,99,1) 50%, rgba(22,105,43,1) 100%);
+   }
+.item{
+    padding-top: 20px;
+}
+.item a{ 
+    color: white;
+    text-decoration: none;
+}
+.item a.activeLink {
+    color: gold;
+}
+.sidebar { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 40px;
+}

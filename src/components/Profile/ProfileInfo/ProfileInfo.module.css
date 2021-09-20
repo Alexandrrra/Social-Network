@@ -1,0 +1,9 @@
+.descriptionBlock {
+    padding: 10px;
+}
+.infoImg{
+    background-image: url('https://cdn.pixabay.com/photo/2015/09/02/12/37/fern-918570_960_720.jpg');
+    height: 200px;
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
